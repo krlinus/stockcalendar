@@ -1,4 +1,5 @@
  function ticker_q() {
-   alert("test " + document.getElementById('ticker').text)
+  alert("here");
+   alert("test " + document.getElementById('ticker').text);
   }
   
