@@ -1,16 +1,15 @@
-<html>
-<head><titlw>
-</titlw>
-</head>
-<script>
-  function ticker_q() {
-   alert("test"); 
-  }
-</script>
-<body>
-  <form onsubmit="return ticker_q(this)">
-  <input name=ticker type=text></input>
-  <input id=sub type=submit></input>
-  </form>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+  <body>
+       <script src="src/script.js"></script>
+        <form onsubmit="return ticker_q(this)">
+          <input id="ticker" name="ticker" type="text"></input>
+          <input id="sub" type="submit"></input>
+        </form>
+  </body>
 </html>
